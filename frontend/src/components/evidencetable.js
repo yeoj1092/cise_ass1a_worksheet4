@@ -1,5 +1,4 @@
-import React, {useMemo} from "react";
-import articles from "../dummydata/articles.js";
+import React from "react";
 import { useTable, useSortBy, usePagination } from 'react-table';
 const Table = ({columns, data}) => {
 const {
